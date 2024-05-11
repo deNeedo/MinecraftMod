@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(ServerPlayerEntity.class)
-public class ExampleMixin
+public class ServerPlayerEntityMixin
 {
 	@Inject(at = @At("TAIL"), method = "onDeath")
 	private void onPlayerDeath(final DamageSource damageSource, final CallbackInfo info)

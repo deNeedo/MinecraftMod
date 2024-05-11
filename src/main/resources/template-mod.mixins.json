@@ -2,7 +2,7 @@
 	"required": true,
 	"package": "net.template.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": ["ExampleMixin"],
+	"mixins": ["ServerPlayerEntityMixin"],
 	"client": [],
 	"server": [],
 	"injectors": {
